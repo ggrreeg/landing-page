@@ -1,0 +1,316 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: #1f2937;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Crée de l'espace entre le logo et les liens */
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #1f2937;
+}
+
+.header_link {
+  display: flex;
+  gap: 28px; /* Ajustez cette valeur selon l'espacement désiré entre les liens */
+  margin-right: 100px;
+}
+
+.header_link a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.header_logo {
+  margin-left: 120px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.hero_side {
+  margin-left: 20px;
+  align-items: center;
+  padding: 80px;
+  flex: 1;
+}
+
+.hero_text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.hero_paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.hero_button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-color: #3882f6;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: none;
+  color: white;
+  padding: 5px 30px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.hero_button:hover {
+  background-color: #0062ff;
+  border-radius: 6px;
+  border-color: #0062ff;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: none;
+  color: white;
+  padding: 6px 31px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.hero_square {
+  width: 500px; /* Largeur du carré */
+  height: 250px; /* Hauteur du carré */
+  background-color: grey; /* Couleur de fond du carré */
+  display: flex; /* Utilise flexbox pour centrer le texte à l'intérieur */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  color: white; /* Couleur du texte à l'intérieur du carré */
+  margin-top: 30px;
+}
+
+.hero_container {
+  display: flex; /* Utilise flexbox pour aligner les deux côtés */
+  justify-content: space-between; /* Crée de l'espace entre les côtés */
+  align-items: flex-start; /* Aligne le contenu en haut */
+  padding: 20px; /* Ajoute un padding à l'ensemble */
+}
+
+#right_side {
+  padding-right: 20px; /* Espace à droite du côté droit */
+}
+
+.random_info {
+  background-color: #ffffff;
+}
+
+.random_info_header {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.random_info {
+  text-align: center; /* Centre le contenu à l'intérieur */
+}
+
+.random_info_header {
+  font-size: 36px; /* Taille de la police pour le titre */
+  margin-bottom: 40px; /* Espacement sous le titre */
+}
+
+.square {
+  display: flex; /* Utilise flexbox pour aligner les éléments */
+  justify-content: center; /* Centre les éléments horizontalement */
+  gap: 50px; /* Espace entre les éléments */
+}
+
+.random_info_item {
+  display: flex;
+  flex-direction: column; /* Aligne les carrés et le texte verticalement */
+  align-items: center; /* Centre horizontalement */
+}
+
+.random_info_border {
+  width: 150px; /* Largeur du carré */
+  height: 150px; /* Hauteur du carré */
+  border: 3px solid #3498db; /* Bordure de couleur */
+  background-color: transparent; /* Fond transparent */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+.random_info_item_text {
+  font-size: 18px; /* Taille de la police */
+  text-align: center; /* Centre le texte */
+  margin-top: 10px; /* Espacement au-dessus du texte sous le carré */
+  margin-bottom: 80px;
+}
+
+.quote_section {
+  background-color: #e5e7eb;
+}
+
+.quote_section h2,
+p {
+  margin: 0; /* Enlève les marges */
+  padding: 0; /* Enlève le padding */
+}
+
+.quote_container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.quote_text {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote_author {
+  font-weight: 900;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 400px;
+  font-size: 16px;
+}
+
+.sign_up_section {
+  background-color: white;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign_up_section h2,
+.sign_up_section p {
+  margin: 0;
+  padding: 0;
+}
+
+.sign_up_square {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espacement entre le texte et le bouton */
+  width: 1000px; /* Largeur du carré */
+  height: 120px; /* Hauteur du carré */
+  background-color: #3882f6; /* Couleur de fond du carré */
+  border-radius: 15px;
+  padding: 0 20px; /* Espacement intérieur pour éviter que le texte ne touche les bords */
+}
+
+.sign_up_text {
+  color: #e5e7eb;
+  padding-left: 100px;
+}
+
+.sign_up_button {
+  border-radius: 8px;
+  background-color: transparent;
+  border-color: #e5e7eb;
+  border-style: solid;
+  color: #e5e7eb;
+  font-weight: 700;
+  padding: 6px 20px;
+  cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+  margin-right: 100px;
+  font-size: large;
+}
+
+.sign_up_button:hover {
+  background-color: #e5e7eb;
+  color: #0062ff;
+  transition: 0.3s all;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #f9faf8;
+}
